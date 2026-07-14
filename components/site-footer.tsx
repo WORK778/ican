@@ -147,17 +147,17 @@ export function SiteFooter() {
                 <Phone className="size-4 shrink-0 text-brand-green" />
                 +7 (905) 555-55-55
               </a>
-              <a href="mailto:zakaz@zakaz.ru" className="flex items-center gap-2.5 hover:text-brand-green">
+              <a href="mailto:zakaz@modnyfermer.ru" className="flex items-center gap-2.5 hover:text-brand-green">
                 <Mail className="size-4 shrink-0 text-brand-green" />
-                zakaz@zakaz.ru
+                zakaz@modnyfermer.ru
               </a>
               <p className="flex items-center gap-2.5 text-card/75">
                 <Clock className="size-4 shrink-0 text-brand-green" />
-                Ежедневно с 9:00 до 21:00
+                ПН–СБ с 9:00 до 18:00
               </p>
               <p className="flex items-start gap-2.5 text-card/75">
                 <MapPin className="mt-0.5 size-4 shrink-0 text-brand-green" />
-                Московская обл., Дмитровский р-н, питомник «Модный фермер»
+                Деревня Семёнково, Серебряно-Прудский городской округ, Московская область. По указателям «Ягодная Ферма Голубики».
               </p>
               <p className="flex items-center gap-2.5 font-medium text-card">
                 <Truck className="size-4 shrink-0 text-brand-green" />

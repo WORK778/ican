@@ -44,19 +44,19 @@ export function SiteHeader() {
             </span>
             <span className="hidden flex-col leading-tight sm:flex">
               <span className="font-semibold text-foreground">+7 (905) 555-55-55</span>
-              <span className="text-xs text-muted-foreground">ежедневно 9:00–20:00</span>
+              <span className="text-xs text-muted-foreground">ПН–СБ с 9:00 до 18:00</span>
             </span>
           </a>
 
           <a
-            href="mailto:zakaz@zakaz.ru"
+            href="mailto:zakaz@modnyfermer.ru"
             className="group hidden items-center gap-2.5 text-sm lg:flex"
           >
             <span className="flex size-9 items-center justify-center rounded-full bg-secondary text-brand transition-colors group-hover:bg-brand group-hover:text-brand-foreground">
               <Mail className="size-4" />
             </span>
             <span className="flex flex-col leading-tight">
-              <span className="font-semibold text-foreground">zakaz@zakaz.ru</span>
+              <span className="font-semibold text-foreground">zakaz@modnyfermer.ru</span>
               <span className="text-xs text-muted-foreground">напишите нам</span>
             </span>
           </a>

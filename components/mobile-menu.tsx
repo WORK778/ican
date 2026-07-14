@@ -203,7 +203,7 @@ export function MobileMenu({ open, onClose }: Props) {
                             className="flex w-full items-center justify-between gap-2 rounded-xl px-3 py-2.5 text-left text-sm text-muted-foreground transition-colors hover:bg-secondary"
                           >
                             <span className="font-medium">
-                              Скоро в продаже
+                              Скоро в прод��же
                               <span className="ml-1.5 text-xs">({upcomingCats.length})</span>
                             </span>
                             <ChevronDown
@@ -279,18 +279,18 @@ export function MobileMenu({ open, onClose }: Props) {
                 </span>
                 <span className="flex flex-col leading-tight">
                   <span className="font-semibold text-foreground">+7 (905) 555-55-55</span>
-                  <span className="text-xs text-muted-foreground">ежедневно 9:00–20:00</span>
+                  <span className="text-xs text-muted-foreground">ПН–СБ с 9:00 до 18:00</span>
                 </span>
               </a>
               <a
-                href="mailto:zakaz@zakaz.ru"
+                href="mailto:zakaz@modnyfermer.ru"
                 className="group flex items-center gap-3 rounded-2xl border border-border bg-card p-3"
               >
                 <span className="flex size-10 items-center justify-center rounded-full bg-secondary text-brand transition-colors group-hover:bg-brand group-hover:text-brand-foreground">
                   <Mail className="size-4" />
                 </span>
                 <span className="flex flex-col leading-tight">
-                  <span className="font-semibold text-foreground">zakaz@zakaz.ru</span>
+                  <span className="font-semibold text-foreground">zakaz@modnyfermer.ru</span>
                   <span className="text-xs text-muted-foreground">напишите нам</span>
                 </span>
               </a>
