@@ -58,10 +58,6 @@ export function AboutContent() {
             <span className="text-card/90">О питомнике</span>
           </nav>
 
-          <span className="w-fit rounded-full bg-card/15 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-card ring-1 ring-inset ring-card/30 backdrop-blur">
-            Семейный питомник · Подмосковье
-          </span>
-
           <h1 className="mt-4 max-w-3xl font-serif text-3xl leading-tight text-balance sm:text-5xl">
             Питомник растений на юге Подмосковья
           </h1>
