@@ -75,7 +75,7 @@ export function AboutContent() {
 
       {/* Показатели */}
       <section className="mx-auto max-w-5xl px-4">
-        <div className="-mt-8 grid grid-cols-1 divide-y divide-border rounded-2xl border border-border bg-card shadow-sm sm:grid-cols-3 sm:divide-x sm:divide-y-0">
+        <div className="relative z-10 -mt-8 grid grid-cols-1 divide-y divide-border rounded-2xl border border-border bg-card shadow-sm sm:grid-cols-3 sm:divide-x sm:divide-y-0">
           {stats.map((stat) => (
             <div key={stat.label} className="flex flex-col items-center gap-1 px-4 py-6 text-center">
               <span className="font-serif text-3xl text-brand sm:text-4xl">{stat.value}</span>
