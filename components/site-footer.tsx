@@ -9,7 +9,7 @@ import { MaxIcon, RutubeIcon, DzenIcon, VkIcon } from '@/components/brand-icons'
 const menu = [
   {
     title: 'Покупателям',
-    links: ['Доставка и оплата', 'Как сажать', 'Гарантия', 'Отзывы', 'Вопросы и ответы'],
+    links: ['Доставка и оплата', 'О питомнике', 'Гарантия', 'Отзывы', 'Вопросы и ответы'],
   },
 ]
 
