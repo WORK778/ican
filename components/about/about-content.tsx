@@ -201,10 +201,10 @@ export function AboutContent() {
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             {[
-              { label: 'MAX', href: 'https://max.ru' },
-              { label: 'Dzen', href: 'https://dzen.ru' },
-              { label: 'VK', href: 'https://vk.com' },
-              { label: 'Rutube', href: 'https://rutube.ru' },
+              { label: 'MAX', href: 'https://max.ru/modnyfermer' },
+              { label: 'Dzen', href: 'https://dzen.ru/modnyfermer' },
+              { label: 'VK', href: 'https://vk.com/modnyfermer' },
+              { label: 'Rutube', href: 'https://rutube.ru/channel/39332611' },
             ].map((social) => (
               <a
                 key={social.label}

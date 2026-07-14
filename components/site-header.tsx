@@ -65,7 +65,7 @@ export function SiteHeader() {
         {/* Actions */}
         <div className="ml-auto flex shrink-0 items-center gap-3 md:ml-0">
           <a
-            href="https://max.ru"
+            href="https://max.ru/modnyfermer"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden items-center gap-2 rounded-full bg-brand px-4 py-2.5 text-sm font-semibold text-brand-foreground shadow-sm transition-colors hover:bg-brand-deep lg:inline-flex"

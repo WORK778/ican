@@ -20,10 +20,10 @@ const menu = [
 ]
 
 const socials = [
-  { label: 'MAX', href: 'https://max.ru', Icon: MaxIcon },
-  { label: 'Dzen', href: 'https://dzen.ru', Icon: DzenIcon },
-  { label: 'VK', href: 'https://vk.com', Icon: VkIcon },
-  { label: 'Rutube', href: 'https://rutube.ru', Icon: RutubeIcon },
+  { label: 'MAX', href: 'https://max.ru/modnyfermer', Icon: MaxIcon },
+  { label: 'Dzen', href: 'https://dzen.ru/modnyfermer', Icon: DzenIcon },
+  { label: 'VK', href: 'https://vk.com/modnyfermer', Icon: VkIcon },
+  { label: 'Rutube', href: 'https://rutube.ru/channel/39332611', Icon: RutubeIcon },
 ]
 
 export function SiteFooter() {

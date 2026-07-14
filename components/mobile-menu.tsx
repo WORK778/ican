@@ -30,10 +30,10 @@ const navLinks = [
 ]
 
 const socials = [
-  { label: 'MAX', href: 'https://max.ru', Icon: MaxIcon },
-  { label: 'Dzen', href: 'https://dzen.ru', Icon: DzenIcon },
-  { label: 'VK', href: 'https://vk.com', Icon: VkIcon },
-  { label: 'Rutube', href: 'https://rutube.ru', Icon: RutubeIcon },
+  { label: 'MAX', href: 'https://max.ru/modnyfermer', Icon: MaxIcon },
+  { label: 'Dzen', href: 'https://dzen.ru/modnyfermer', Icon: DzenIcon },
+  { label: 'VK', href: 'https://vk.com/modnyfermer', Icon: VkIcon },
+  { label: 'Rutube', href: 'https://rutube.ru/channel/39332611', Icon: RutubeIcon },
 ]
 
 export function MobileMenu({ open, onClose }: Props) {
@@ -203,7 +203,7 @@ export function MobileMenu({ open, onClose }: Props) {
                             className="flex w-full items-center justify-between gap-2 rounded-xl px-3 py-2.5 text-left text-sm text-muted-foreground transition-colors hover:bg-secondary"
                           >
                             <span className="font-medium">
-                              Скоро в прод��же
+                              Скоро в прод����же
                               <span className="ml-1.5 text-xs">({upcomingCats.length})</span>
                             </span>
                             <ChevronDown
@@ -257,7 +257,7 @@ export function MobileMenu({ open, onClose }: Props) {
             </p>
             <div className="flex flex-col gap-2">
               <a
-                href="https://max.ru"
+                href="https://max.ru/modnyfermer"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-3 rounded-2xl bg-brand p-3 text-brand-foreground transition-colors hover:bg-brand-deep"
