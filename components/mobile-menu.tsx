@@ -5,9 +5,9 @@ import Image from 'next/image'
 import {
   ChevronDown,
   ChevronRight,
+  Leaf,
   Mail,
   Phone,
-  ShieldCheck,
   Sprout,
   Star,
   Truck,
@@ -25,7 +25,7 @@ type Props = {
 
 const navLinks = [
   { label: 'Доставка и оплата', href: '#', Icon: Truck },
-  { label: 'Гарантия качества', href: '#', Icon: ShieldCheck },
+  { label: 'О питомнике', href: '/about', Icon: Leaf },
   { label: 'Отзывы', href: '#', Icon: Star },
 ]
 
