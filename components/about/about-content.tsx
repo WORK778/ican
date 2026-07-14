@@ -193,7 +193,7 @@ export function AboutContent() {
       <section className="mx-auto max-w-5xl px-4 py-12 sm:py-16">
         <div className="rounded-2xl bg-brand-deep px-6 py-10 text-center text-card sm:px-10">
           <h2 className="mx-auto max-w-2xl font-serif text-2xl text-balance sm:text-3xl">
-            О том, как мы выращиваем голубику, смотрите в наших социальных сетях
+            О том, как мы выращиваем наши саженцы, смотрите в наших социальных сетях
           </h2>
           <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-card/70">
             Делимся жизнью питомника, советами по посадке и уходу, а также показываем
