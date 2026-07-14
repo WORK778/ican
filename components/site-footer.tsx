@@ -9,7 +9,13 @@ import { MaxIcon, RutubeIcon, DzenIcon, VkIcon } from '@/components/brand-icons'
 const menu = [
   {
     title: 'Покупателям',
-    links: ['Доставка и оплата', 'О питомнике', 'Гарантия', 'Отзывы', 'Вопросы и ответы'],
+    links: [
+      { label: 'Доставка и оплата', href: '#' },
+      { label: 'О питомнике', href: '/about' },
+      { label: 'Гарантия', href: '#' },
+      { label: 'Отзывы', href: '#' },
+      { label: 'Вопросы и ответы', href: '#' },
+    ],
   },
 ]
 
@@ -120,10 +126,13 @@ export function SiteFooter() {
               <h3 className="text-sm font-bold uppercase tracking-wide text-card">{col.title}</h3>
               <ul className="mt-4 flex flex-col gap-2.5">
                 {col.links.map((link) => (
-                  <li key={link}>
-                    <a href="#" className="text-sm text-card/70 transition-colors hover:text-brand-green">
-                      {link}
-                    </a>
+                  <li key={link.label}>
+                    <Link
+                      href={link.href}
+                      className="text-sm text-card/70 transition-colors hover:text-brand-green"
+                    >
+                      {link.label}
+                    </Link>
                   </li>
                 ))}
               </ul>
